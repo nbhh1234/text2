@@ -72,7 +72,7 @@ class RegularPolygon:
         zhou=self.__n*self.__side
         print zhou
     def getArea(self):
-        mj=(self.__n*self.__side**2)/(4*math.tan(3.14/self.__n))
+        mj=(self.__n*self.__side**2)/(4*math.tan(math.pi/self.__n))
         print mj
 re1=RegularPolygon()
 re1.getPerimeter()
@@ -155,6 +155,22 @@ class Leq():
         s.__y2=y2
     def fc(s):
         k=(y2-y1)/(x2-x1)
+        b=(x2*y1-y2*x1)/(x2-x1)
 
 
 '''
+'''
+url1='http://www.baidu.com/?page='
+url2='?wd=xiaopangzi'
+for i in range (1,1000):
+    str_i=str(i)
+    print (str_i).join((url1,url2))
+
+'''
+A2=[1,1,1,1,1,2,2,2,2,3,4]
+A3=[]
+for i in A2:
+    if i not in A3:
+        A3.append(i)
+print A3
+
