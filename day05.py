@@ -86,19 +86,6 @@ re3.getArea()
 
 '''
 '''
-
-#EP6
-import math
-class LinEq:
-    def __init__(self,x1,y1,x2,y2):
-        self.__x1=x1
-        self.__y1=y1
-        self.__x2=x2
-        self.__y2=y2
-    def qe(self):
-       
-'''
-'''
 #EP4
 slow=1
 medium=2
@@ -175,9 +162,12 @@ for i in A2:
         A3.append(i)
 print A3
 '''
+<<<<<<< HEAD
 '''
 a4=[['liuyanyun',22,['360',100]],['jingjing',12,['baidu',1]],['taotao',-1,['google',0]]]
 a4.sort(key=lambda x:x[2][1])
 print a4
 '''
 
+=======
+>>>>>>> c68df842610df04776ee697f31a41d0d0f853532
