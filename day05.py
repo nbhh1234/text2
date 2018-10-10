@@ -86,19 +86,6 @@ re3.getArea()
 
 '''
 '''
-
-#EP6
-import math
-class LinEq:
-    def __init__(self,x1,y1,x2,y2):
-        self.__x1=x1
-        self.__y1=y1
-        self.__x2=x2
-        self.__y2=y2
-    def qe(self):
-       
-'''
-'''
 #EP4
 slow=1
 medium=2
@@ -173,4 +160,4 @@ for i in A2:
     if i not in A3:
         A3.append(i)
 print A3
-
+'''
